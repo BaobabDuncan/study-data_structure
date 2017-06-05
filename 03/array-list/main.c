@@ -14,6 +14,15 @@ int main() {
         addElement(pList, 1, node);
         node.data = 5;
         addElement(pList, 0, node);
+        node.data = 6;
+        addElement(pList, 1, node);
+        displayArrayList(pList);
+        removeElement(pList, 0);
+        removeElement(pList, 2);
+        displayArrayList(pList);
+        clearArrayList(pList);
+        displayArrayList(pList);
+        deleteArrayList(pList);
         displayArrayList(pList);
     }
     return 0;
