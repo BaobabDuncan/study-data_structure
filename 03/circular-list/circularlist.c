@@ -56,8 +56,10 @@ bool removeElement(CircularList* pList, int position){
     }
     pDelNode = pPreNode->pLink;
     pPreNode->pLink = pDelNode->pLink;
+
     free(pDelNode);
     pList->currentElementCount--;
+
     return true;
 }
 

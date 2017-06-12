@@ -29,7 +29,7 @@ int main() {
     displayCircularList(pList);
 
     pNode = getElement(pList, 5);
-    printf("pNode->data = %d, pNode->pLink->data = %d\n", pNode->data, pNode->pLink->data);
+//    printf("pNode->data = %d, pNode->pLink->data = %d\n", pNode->data, pNode->pLink->data);
 
     removeElement(pList, 0);
     displayCircularList(pList);
